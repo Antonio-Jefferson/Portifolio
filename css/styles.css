@@ -24,17 +24,28 @@ body{
     background-color: var(--cor2);
     justify-content: space-between;
 }
+.logo img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
 .nav ul{
     display: flex;
     list-style: none;
 }
 .nav ul li{
     margin-right: 10px;
-    margin-top: 30px;
+    margin-top: 20px;
+    padding: 10px;
 }
 .nav ul li a{
     text-decoration: none;
     color: var(--cor4);
+    font-size: 19px;
+}
+.nav ul li a:hover{
+    text-decoration: overline;
+    color: #27ae60;
 }
 .home{
     display: flex;
@@ -44,17 +55,50 @@ body{
     height: 100vh;
 }
 .foto_minha div{
-    margin-top: 40%;
-    margin-left: 40%;
+    margin-top: 15%;
+    margin-left: 25%;
 }
+.foto_minha div img{
+    width: 500px;
+    height: 500px;
+    border-top: var(--cor3) solid 10px;
+    border-left: var(--cor3) solid 10px;
+}
+
 .apresentacao{
     height: 100vh;
     width: 100vw;
 }
 .apresentacao div{
     margin-top: 40%;
-    margin-left: 40%;
+    margin-left: 20%;
+}
+.apresentacao div p{
+    font-size: 24px;
+}
+#front{
+    margin-left: 25%;
+}
+button{
+    width: 120px;
+    height: 40px;
+    margin: 50px 0px 0px 200px;
+    border-radius: 8px;
+    background-color: var(--cor3);
+}
+button a{
+    text-decoration: none;
+    color: var(--cor4);
+    font-size: 17px;
 }
 .apresentacao div h1{
+    color: var(--cor3);
+    font-size: 64px;
+}
+.sobre h1{
+    text-align: center;
+    font-size: 54px;
+}
+span{
     color: var(--cor3);
 }
