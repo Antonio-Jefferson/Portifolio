@@ -51,7 +51,7 @@ body{
     display: flex;
 }
 .foto_minha{
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 }
 .foto_minha div{
@@ -61,17 +61,29 @@ body{
 .foto_minha div img{
     width: 500px;
     height: 500px;
-    border-top: var(--cor3) solid 10px;
-    border-left: var(--cor3) solid 10px;
+    box-shadow: 10px 10px 10px  #27ae60;
 }
-
+.redes_social a{
+    display: block;
+    margin-bottom: 20px;
+}
+.redes_social{
+    position: absolute;
+    top: -80px;
+    left: -140px;
+}
+.redes_social .icon{
+        width: 35px;
+        height: 35px;
+        margin: 5px;
+}
 .apresentacao{
     height: 100vh;
     width: 100vw;
 }
 .apresentacao div{
-    margin-top: 40%;
-    margin-left: 20%;
+    margin-top: 20%;
+    margin-left: 17%;
 }
 .apresentacao div p{
     font-size: 24px;
@@ -84,7 +96,7 @@ button{
     height: 40px;
     margin: 50px 0px 0px 200px;
     border-radius: 8px;
-    background-color: var(--cor3);
+    background-color: #5F28D6;
 }
 button a{
     text-decoration: none;
@@ -101,4 +113,134 @@ button a{
 }
 span{
     color: var(--cor3);
+}
+.conteudo_sobre{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-evenly;
+}
+.sobre h1{
+    text-decoration: underline #27ae60;
+}
+.text{
+    width:35%;
+    height:40%;
+    margin-top:10%;
+}
+.text p{
+    text-align: justify;
+    padding: 8px;
+}
+.habilidades{
+    width: 100%;
+    height: 100vh;
+}
+.habilidades h1{
+    text-align: center;
+    font-size: 54px;
+    text-decoration: underline #27ae60;
+}
+.habilidades p{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+.ferramentas{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.cards{
+    margin: 120px;
+    width: 100px;
+    height: 100px;
+}
+.cards:hover{
+    cursor: pointer;
+}
+.ferramentas img{
+    width: 100px;
+    height: 100px;
+}
+.projetos{
+    width: 100%;
+    height: 100vh;
+}
+.projetos h1{
+    text-align: center;
+    font-size: 54px;
+    text-decoration: underline #27ae60;
+}
+.card_projetos{
+    display: flex;
+    justify-content: space-around;
+}
+.card_p{
+    width: 400px;
+    height: 450px;
+    margin-top: 60px;
+}
+.card_p img{
+    width: 100%;
+    height:100%;
+}
+.card_projetos p{
+    text-align: center;
+    margin-top: 20px;
+}
+#ver{
+    text-align: center;
+    margin-top: 20px;
+}
+.contato{
+    width: 100%;
+    height: 80vh;
+}
+.box_contato{
+    display: flex;
+    justify-content: space-around;
+}
+.esfera{
+    position: absolute;
+    width: 700px;
+    height: 700px;
+    border-radius: 50%;
+    background-color: #27ae60;
+    left: 100px;
+}
+.forme{
+    margin-top: 80px;
+    width: 500px;
+}
+.forme h2{
+    text-align: center;
+    margin-bottom: 30px;
+    color: #27ae60;
+}
+.box_forme{
+    display: flex;
+    flex-direction: column;
+}
+.box_forme input{
+    margin-bottom: 40px;
+}
+
+footer{
+    background-color: #111;
+    width: 100%;
+    height: 20vh;
+}
+.agradecimentos p{
+    text-align: center;
+}
+.redes_sociais{
+    margin-top:80px ;
+}
+.icon{
+    width: 25px;
+    height: 25px;
+    margin: 5px;
 }
